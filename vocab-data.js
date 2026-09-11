@@ -974,23 +974,1220 @@ var VOCAB_DATA = [
     category: "smalltalk",
     exampleHr: "Sve u svemu, bio je to nezaboravan godišnji odmor.",
     exampleDe: "Alles in allem war es ein unvergesslicher Urlaub."
+  },
+
+  // --- KATEGORIE: WICHTIGE NOMEN FÜR DIE KOMMUNIKATION (Imenice) ---
+  {
+    id: 121,
+    hr: "Iskustvo",
+    de: "Erfahrung",
+    category: "rijeci",
+    exampleHr: "To je bilo nevjerojatno iskustvo za mene.",
+    exampleDe: "Das war eine unglaubliche Erfahrung für mich."
+  },
+  {
+    id: 122,
+    hr: "Prilika",
+    de: "Gelegenheit / Chance",
+    category: "rijeci",
+    exampleHr: "Ne smiješ propustiti ovakvu dobru priliku.",
+    exampleDe: "Du darfst so eine gute Gelegenheit nicht verpassen."
+  },
+  {
+    id: 123,
+    hr: "Odluka",
+    de: "Entscheidung",
+    category: "rijeci",
+    exampleHr: "Bila je to teška, ali ispravna odluka.",
+    exampleDe: "Es war eine schwere, aber richtige Entscheidung."
+  },
+  {
+    id: 124,
+    hr: "Mišljenje",
+    de: "Meinung / Ansicht",
+    category: "rijeci",
+    exampleHr: "Zanima me tvoje iskreno mišljenje o tome.",
+    exampleDe: "Mich interessiert deine ehrliche Meinung dazu."
+  },
+  {
+    id: 125,
+    hr: "Savjet",
+    de: "Ratschlag / Tipp",
+    category: "rijeci",
+    exampleHr: "Hvala ti na savjetu, puno mi je pomogao.",
+    exampleDe: "Danke dir für den Rat, er hat mir sehr geholfen."
+  },
+  {
+    id: 126,
+    hr: "Povjerenje",
+    de: "Vertrauen",
+    category: "rijeci",
+    exampleHr: "Povjerenje se teško stječe, a lako gubi.",
+    exampleDe: "Vertrauen gewinnt man schwer und verliert man leicht."
+  },
+  {
+    id: 127,
+    hr: "Dogovor",
+    de: "Vereinbarung / Abmachung",
+    category: "rijeci",
+    exampleHr: "Držimo se našeg dogovora od jučer.",
+    exampleDe: "Wir halten uns an unsere Abmachung von gestern."
+  },
+  {
+    id: 128,
+    hr: "Istina",
+    de: "Wahrheit",
+    category: "rijeci",
+    exampleHr: "Uvijek je bolje odmah reći istinu.",
+    exampleDe: "Es ist immer besser, sofort die Wahrheit zu sagen."
+  },
+  {
+    id: 129,
+    hr: "Laž",
+    de: "Lüge",
+    category: "rijeci",
+    exampleHr: "To je čista laž, nemoj vjerovati u to.",
+    exampleDe: "Das ist eine glatte Lüge, glaub nicht daran."
+  },
+  {
+    id: 130,
+    hr: "Ponašanje",
+    de: "Verhalten / Benehmen",
+    category: "rijeci",
+    exampleHr: "Njegovo ponašanje me stvarno iznenadilo.",
+    exampleDe: "Sein Verhalten hat mich wirklich überrascht."
+  },
+  {
+    id: 131,
+    hr: "Odnos",
+    de: "Beziehung / Verhältnis",
+    category: "rijeci",
+    exampleHr: "Imamo vrlo otvoren i prijateljski odnos.",
+    exampleDe: "Wir haben ein sehr offenes und freundschaftliches Verhältnis."
+  },
+  {
+    id: 132,
+    hr: "Prednost",
+    de: "Vorteil",
+    category: "rijeci",
+    exampleHr: "Koja je glavna prednost ovog plana?",
+    exampleDe: "Was ist der Hauptvorteil dieses Plans?"
+  },
+  {
+    id: 133,
+    hr: "Nedostatak",
+    de: "Nachteil / Mangel",
+    category: "rijeci",
+    exampleHr: "Jedini nedostatak je visoka cijena.",
+    exampleDe: "Der einzige Nachteil ist der hohe Preis."
+  },
+  {
+    id: 134,
+    hr: "Navika",
+    de: "Gewohnheit",
+    category: "rijeci",
+    exampleHr: "Imam naviku ujutro popiti čašu vode.",
+    exampleDe: "Ich habe die Gewohnheit, morgens ein Glas Wasser zu trinken."
+  },
+  {
+    id: 135,
+    hr: "Obaveza",
+    de: "Pflicht / Verpflichtung",
+    category: "rijeci",
+    exampleHr: "Danas imam previše obaveza na poslu.",
+    exampleDe: "Heute habe ich zu viele Verpflichtungen auf der Arbeit."
+  },
+  {
+    id: 136,
+    hr: "Raspoloženje",
+    de: "Stimmung / Laune",
+    category: "rijeci",
+    exampleHr: "Danas sam u odličnom raspoloženju.",
+    exampleDe: "Heute bin ich in ausgezeichneter Laune."
+  },
+  {
+    id: 137,
+    hr: "Strpljenje",
+    de: "Geduld",
+    category: "rijeci",
+    exampleHr: "Za učenje jezika potrebno je puno strpljenja.",
+    exampleDe: "Fürs Sprachenlernen braucht man viel Geduld."
+  },
+  {
+    id: 138,
+    hr: "Društvo",
+    de: "Freundeskreis / Gesellschaft",
+    category: "rijeci",
+    exampleHr: "Uvijek je ugodno provoditi vrijeme u tvom društvu.",
+    exampleDe: "Es ist immer angenehm, Zeit in deiner Gesellschaft zu verbringen."
+  },
+  {
+    id: 139,
+    hr: "Cilj",
+    de: "Ziel",
+    category: "rijeci",
+    exampleHr: "Moj cilj je tečno govoriti hrvatski jezik.",
+    exampleDe: "Mein Ziel ist es, fließend Kroatisch zu sprechen."
+  },
+  {
+    id: 140,
+    hr: "Uspjeh",
+    de: "Erfolg",
+    category: "rijeci",
+    exampleHr: "Čestitam ti na velikom uspjehu!",
+    exampleDe: "Ich gratuliere dir zum großen Erfolg!"
+  },
+  {
+    id: 141,
+    hr: "Razlog",
+    de: "Grund / Ursache",
+    category: "rijeci",
+    exampleHr: "Koji je pravi razlog tvog kašnjenja?",
+    exampleDe: "Was ist der wahre Grund für deine Verspätung?"
+  },
+  {
+    id: 142,
+    hr: "Rješenje",
+    de: "Lösung",
+    category: "rijeci",
+    exampleHr: "Zajedno ćemo pronaći najbolje rješenje.",
+    exampleDe: "Gemeinsam werden wir die beste Lösung finden."
+  },
+  {
+    id: 143,
+    hr: "Razlika",
+    de: "Unterschied",
+    category: "rijeci",
+    exampleHr: "Koja je razlika između ova dva pojma?",
+    exampleDe: "Was ist der Unterschied zwischen diesen zwei Begriffen?"
+  },
+  {
+    id: 144,
+    hr: "Izgovor",
+    de: "Ausrede / Entschuldigung",
+    category: "rijeci",
+    exampleHr: "Nemoj tražiti izgovore, samo to napravi.",
+    exampleDe: "Such keine Ausreden, mach es einfach."
+  },
+  {
+    id: 145,
+    hr: "Primjer",
+    de: "Beispiel",
+    category: "rijeci",
+    exampleHr: "Možeš li mi dati jedan konkretan primjer?",
+    exampleDe: "Kannst du mir ein konkretes Beispiel geben?"
+  },
+  {
+    id: 146,
+    hr: "Vijest",
+    de: "Nachricht / Neuigkeit",
+    category: "rijeci",
+    exampleHr: "Imam jednu odličnu vijest za tebe!",
+    exampleDe: "Ich habe eine tolle Neuigkeit für dich!"
+  },
+  {
+    id: 147,
+    hr: "Svađa",
+    de: "Streit / Auseinandersetzung",
+    category: "rijeci",
+    exampleHr: "Glupa svađa nam je pokvarila cijeli dan.",
+    exampleDe: "Ein dummer Streit hat uns den ganzen Tag verdorben."
+  },
+  {
+    id: 148,
+    hr: "Odgovornost",
+    de: "Verantwortung",
+    category: "rijeci",
+    exampleHr: "Spreman sam preuzeti punu odgovornost.",
+    exampleDe: "Ich bin bereit, die volle Verantwortung zu übernehmen."
+  },
+  {
+    id: 149,
+    hr: "Okolnost",
+    de: "Umstand",
+    category: "rijeci",
+    exampleHr: "U ovim okolnostima moramo biti oprezni.",
+    exampleDe: "Unter diesen Umständen müssen wir vorsichtig sein."
+  },
+  {
+    id: 150,
+    hr: "Promjena",
+    de: "Veränderung / Wechsel",
+    category: "rijeci",
+    exampleHr: "Ponekad je promjena okoline upravo ono što nam treba.",
+    exampleDe: "Manchmal ist ein Tapetenwechsel genau das, was wir brauchen."
+  },
+
+  // --- KATEGORIE: WICHTIGE ADJEKTIVE & BESCHREIBUNGEN (Pridjevi) ---
+  {
+    id: 151,
+    hr: "Iskren / Iskrena",
+    de: "ehrlich / aufrichtig",
+    category: "pridjevi",
+    exampleHr: "Cijenim ljude koji su uvijek iskreni.",
+    exampleDe: "Ich schätze Menschen, die immer ehrlich sind."
+  },
+  {
+    id: 152,
+    hr: "Pouzdan / Pouzdana",
+    de: "zuverlässig / verlässlich",
+    category: "pridjevi",
+    exampleHr: "On je izuzetno pouzdan prijatelj.",
+    exampleDe: "Er ist ein äußerst zuverlässiger Freund."
+  },
+  {
+    id: 153,
+    hr: "Naporan / Naporna",
+    de: "anstrengend",
+    category: "pridjevi",
+    exampleHr: "Put do Zagreba je bio prilično naporan.",
+    exampleDe: "Die Fahrt nach Zagreb war ziemlich anstrengend."
+  },
+  {
+    id: 154,
+    hr: "Opušten / Opuštena",
+    de: "entspannt / gelassen",
+    category: "pridjevi",
+    exampleHr: "Volim njegov opušten pristup životu.",
+    exampleDe: "Ich mag seine entspannte Herangehensweise ans Leben."
+  },
+  {
+    id: 155,
+    hr: "Ljubazan / Ljubazna",
+    de: "freundlich / liebenswürdig",
+    category: "pridjevi",
+    exampleHr: "Prodavačica u pekari je bila jako ljubazna.",
+    exampleDe: "Die Verkäuferin in der Bäckerei war sehr freundlich."
+  },
+  {
+    id: 156,
+    hr: "Dosadan / Dosadna",
+    de: "langweilig",
+    category: "pridjevi",
+    exampleHr: "Predavanje je bilo toliko dosadno da sam skoro zaspao.",
+    exampleDe: "Der Vortrag war so langweilig, dass ich fast eingeschlafen wäre."
+  },
+  {
+    id: 157,
+    hr: "Uzbuđen / Uzbuđena",
+    de: "aufgeregt / voller Vorfreude",
+    category: "pridjevi",
+    exampleHr: "Svi smo jako uzbuđeni zbog sutrašnjeg koncerta.",
+    exampleDe: "Wir sind alle sehr aufgeregt wegen des morgigen Konzerts."
+  },
+  {
+    id: 158,
+    hr: "Razočaran / Razočarana",
+    de: "enttäuscht",
+    category: "pridjevi",
+    exampleHr: "Nemoj biti razočaran ako ne uspije iz prve.",
+    exampleDe: "Sei nicht enttäuscht, wenn es nicht beim ersten Mal klappt."
+  },
+  {
+    id: 159,
+    hr: "Ponosan / Ponosna",
+    de: "stolz",
+    category: "pridjevi",
+    exampleHr: "Jako sam ponosan na tvoj napredak.",
+    exampleDe: "Ich bin sehr stolz auf deinen Fortschritt."
+  },
+  {
+    id: 160,
+    hr: "Siguran / Sigurna",
+    de: "sicher / gewiss",
+    category: "pridjevi",
+    exampleHr: "Jesi li potpuno siguran u te podatke?",
+    exampleDe: "Bist du dir bei diesen Daten ganz sicher?"
+  },
+  {
+    id: 161,
+    hr: "Zahvalan / Zahvalna",
+    de: "dankbar",
+    category: "pridjevi",
+    exampleHr: "Iznimno sam ti zahvalan na pomoći.",
+    exampleDe: "Ich bin dir außerordentlich dankbar für die Hilfe."
+  },
+  {
+    id: 162,
+    hr: "Odgovoran / Odgovorna",
+    de: "verantwortungsvoll",
+    category: "pridjevi",
+    exampleHr: "Ona je vrlo odgovorna i ozbiljna osoba.",
+    exampleDe: "Sie ist eine sehr verantwortungsvolle und ernsthafte Person."
+  },
+  {
+    id: 163,
+    hr: "Tvrdoglav / Tvrdoglava",
+    de: "stur / dickköpfig",
+    category: "pridjevi",
+    exampleHr: "Nema smisla raspravljati s njim, previše je tvrdoglav.",
+    exampleDe: "Es hat keinen Sinn mit ihm zu diskutieren, er ist zu stur."
+  },
+  {
+    id: 164,
+    hr: "Osjetljiv / Osjetljiva",
+    de: "empfindlich / sensibel",
+    category: "pridjevi",
+    exampleHr: "Nemoj se šaliti na taj račun, on je jako osjetljiv.",
+    exampleDe: "Mach darüber keine Witze, er ist sehr sensibel."
+  },
+  {
+    id: 165,
+    hr: "Jednostavan / Jednostavna",
+    de: "einfach / unkompliziert",
+    category: "pridjevi",
+    exampleHr: "Ovo je zapravo vrlo jednostavno rješenje.",
+    exampleDe: "Das ist eigentlich eine sehr einfache Lösung."
+  },
+  {
+    id: 166,
+    hr: "Zahtjevan / Zahtjevna",
+    de: "anspruchsvoll / fordernd",
+    category: "pridjevi",
+    exampleHr: "Ovaj projekt je tehnički vrlo zahtjevan.",
+    exampleDe: "Dieses Projekt ist technisch sehr anspruchsvoll."
+  },
+  {
+    id: 167,
+    hr: "Oprezan / Oprezna",
+    de: "vorsichtig",
+    category: "pridjevi",
+    exampleHr: "Budi oprezan dok voziš po kiši.",
+    exampleDe: "Sei vorsichtig, während du im Regen fährst."
+  },
+  {
+    id: 168,
+    hr: "Sposoban / Sposobna",
+    de: "fähig / kompetent",
+    category: "pridjevi",
+    exampleHr: "Ona je izuzetno sposobna voditeljica tima.",
+    exampleDe: "Sie ist eine äußerst fähige Teamleiterin."
+  },
+  {
+    id: 169,
+    hr: "Duhovit / Duhovita",
+    de: "witzig / humorvoll",
+    category: "pridjevi",
+    exampleHr: "Njegove priče su uvijek nevjerojatno duhovite.",
+    exampleDe: "Seine Geschichten sind immer unglaublich witzig."
+  },
+  {
+    id: 170,
+    hr: "Pristojan / Pristojna",
+    de: "höflich / anständig",
+    category: "pridjevi",
+    exampleHr: "Uvijek se ponašaj pristojno prema starijima.",
+    exampleDe: "Verhalte dich immer höflich gegenüber Älteren."
+  },
+  {
+    id: 171,
+    hr: "Sumnjiv / Sumnjiva",
+    de: "verdächtig / fragwürdig",
+    category: "pridjevi",
+    exampleHr: "Cijela ta ponuda mi zvuči malo sumnjivo.",
+    exampleDe: "Dieses ganze Angebot klingt für mich etwas verdächtig."
+  },
+  {
+    id: 172,
+    hr: "Čudan / Čudna",
+    de: "seltsam / merkwürdig",
+    category: "pridjevi",
+    exampleHr: "Danas se dogodila jedna jako čudna stvar.",
+    exampleDe: "Heute ist eine sehr seltsame Sache passiert."
+  },
+  {
+    id: 173,
+    hr: "Pametan / Pametna",
+    de: "klug / schlau",
+    category: "pridjevi",
+    exampleHr: "To je bila izuzetno pametna odluka.",
+    exampleDe: "Das war eine außerordentlich kluge Entscheidung."
+  },
+  {
+    id: 174,
+    hr: "Moguć / Moguća",
+    de: "möglich / machbar",
+    category: "pridjevi",
+    exampleHr: "Je li moguć dogovor oko termina?",
+    exampleDe: "Ist eine Vereinbarung bezüglich des Termins möglich?"
+  },
+  {
+    id: 175,
+    hr: "Nemoguć / Nemoguća",
+    de: "unmöglich",
+    category: "pridjevi",
+    exampleHr: "Završiti to za jedan dan je praktički nemoguće.",
+    exampleDe: "Das an einem Tag zu beenden ist praktisch unmöglich."
+  },
+  {
+    id: 176,
+    hr: "Točan / Točna",
+    de: "pünktlich / exakt / richtig",
+    category: "pridjevi",
+    exampleHr: "Vlak je bio točan u minutu.",
+    exampleDe: "Der Zug war auf die Minute pünktlich."
+  },
+  {
+    id: 177,
+    hr: "Pogrešan / Pogrešna",
+    de: "falsch / verkehrt",
+    category: "pridjevi",
+    exampleHr: "Skrenuo si u pogrešnu ulicu.",
+    exampleDe: "Du bist in die falsche Straße eingebogen."
+  },
+  {
+    id: 178,
+    hr: "Prirodan / Prirodna",
+    de: "natürlich / ungekünstelt",
+    category: "pridjevi",
+    exampleHr: "Njezin osmijeh je skroz prirodan.",
+    exampleDe: "Ihr Lächeln ist völlig natürlich."
+  },
+  {
+    id: 179,
+    hr: "Napredan / Napredna",
+    de: "fortgeschritten",
+    category: "pridjevi",
+    exampleHr: "Ima već vrlo napredno znanje jezika.",
+    exampleDe: "Er hat bereits sehr fortgeschrittene Sprachkenntnisse."
+  },
+  {
+    id: 180,
+    hr: "Uobičajen / Uobičajena",
+    de: "üblich / gewöhnlich",
+    category: "pridjevi",
+    exampleHr: "To je sasvim uobičajen postupak u takvim slučajevima.",
+    exampleDe: "Das ist ein ganz übliches Vorgehen in solchen Fällen."
+  },
+
+  // --- KATEGORIE: WICHTIGE VERBEN FÜR DIE KOMMUNIKATION (Glagoli) ---
+  {
+    id: 181,
+    hr: "Predložiti",
+    de: "vorschlagen",
+    category: "verben",
+    exampleHr: "Mogu li predložiti jedno alternativno rješenje?",
+    exampleDe: "Darf ich eine alternative Lösung vorschlagen?"
+  },
+  {
+    id: 182,
+    hr: "Prihvatiti",
+    de: "annehmen / akzeptieren",
+    category: "verben",
+    exampleHr: "Rado prihvaćam tvoj poziv na večeru.",
+    exampleDe: "Ich nehme deine Einladung zum Abendessen gerne an."
+  },
+  {
+    id: 183,
+    hr: "Odbiti",
+    de: "ablehnen / absagen",
+    category: "verben",
+    exampleHr: "Morao sam odbiti ponudu jer nemam vremena.",
+    exampleDe: "Ich musste das Angebot ablehnen, weil ich keine Zeit habe."
+  },
+  {
+    id: 184,
+    hr: "Primijetiti",
+    de: "bemerken / wahrnehmen",
+    category: "verben",
+    exampleHr: "Jesi li primijetio kako je danas lijep dan?",
+    exampleDe: "Hast du bemerkt, wie schön der Tag heute ist?"
+  },
+  {
+    id: 185,
+    hr: "Pretpostaviti",
+    de: "vermuten / annehmen",
+    category: "verben",
+    exampleHr: "Pretpostavljam da stiže oko šest sati.",
+    exampleDe: "Ich vermute, dass er gegen 18 Uhr ankommt."
+  },
+  {
+    id: 186,
+    hr: "Sumnjati",
+    de: "zweifeln / misstrauen",
+    category: "verben",
+    exampleHr: "Nemam razloga sumnjati u njegove riječi.",
+    exampleDe: "Ich habe keinen Grund, an seinen Worten zu zweifeln."
+  },
+  {
+    id: 187,
+    hr: "Obećati",
+    de: "versprechen",
+    category: "verben",
+    exampleHr: "Obećao si mi da ćeš doći na vrijeme.",
+    exampleDe: "Du hast mir versprochen, dass du pünktlich kommst."
+  },
+  {
+    id: 188,
+    hr: "Žaliti se",
+    de: "sich beschweren / klagen",
+    category: "verben",
+    exampleHr: "On se stalno žali na vremenske prilike.",
+    exampleDe: "Er beschwert sich ständig über das Wetter."
+  },
+  {
+    id: 189,
+    hr: "Izbjeći",
+    de: "vermeiden / umgehen",
+    category: "verben",
+    exampleHr: "Želim izbjeći prometnu gužvu u centru.",
+    exampleDe: "Ich möchte den Stau im Zentrum vermeiden."
+  },
+  {
+    id: 190,
+    hr: "Podržati",
+    de: "unterstützen / befürworten",
+    category: "verben",
+    exampleHr: "Uvijek ću te podržati u tvojim idejama.",
+    exampleDe: "Ich werde dich immer bei deinen Ideen unterstützen."
+  },
+  {
+    id: 191,
+    hr: "Utjecati",
+    de: "beeinflussen",
+    category: "verben",
+    exampleHr: "Vrijeme često utječe na moje raspoloženje.",
+    exampleDe: "Das Wetter beeinflusst oft meine Laune."
+  },
+  {
+    id: 192,
+    hr: "Odlučiti",
+    de: "entscheiden / beschließen",
+    category: "verben",
+    exampleHr: "Teško mi je odlučiti što obući danas.",
+    exampleDe: "Es fällt mir schwer zu entscheiden, was ich heute anziehe."
+  },
+  {
+    id: 193,
+    hr: "Prepoznati",
+    de: "wiedererkennen",
+    category: "verben",
+    exampleHr: "Jedva sam te prepoznao s novom frizurom!",
+    exampleDe: "Ich habe dich mit der neuen Frisur kaum wiedererkannt!"
+  },
+  {
+    id: 194,
+    hr: "Dopustiti",
+    de: "erlauben / gestatten",
+    category: "verben",
+    exampleHr: "Možeš li mi dopustiti da završim rečenicu?",
+    exampleDe: "Kannst du mir erlauben, den Satz zu beenden?"
+  },
+  {
+    id: 195,
+    hr: "Zabraniti",
+    de: "verbieten",
+    category: "verben",
+    exampleHr: "Liječnik mu je zabranio teški fizički rad.",
+    exampleDe: "Der Arzt hat ihm schwere körperliche Arbeit verboten."
+  },
+  {
+    id: 196,
+    hr: "Iznenaditi",
+    de: "überraschen",
+    category: "verben",
+    exampleHr: "Htio bih je iznenaditi lijepim poklonom.",
+    exampleDe: "Ich möchte sie mit einem schönen Geschenk überraschen."
+  },
+  {
+    id: 197,
+    hr: "Očekivati",
+    de: "erwarten",
+    category: "verben",
+    exampleHr: "Nisam očekivao da će biti toliko ljudi.",
+    exampleDe: "Ich habe nicht erwartet, dass so viele Leute da sein würden."
+  },
+  {
+    id: 198,
+    hr: "Tražiti",
+    de: "suchen / fordern",
+    category: "verben",
+    exampleHr: "Cijelo jutro tražim ključeve od stana.",
+    exampleDe: "Den ganzen Morgen suche ich die Wohnungsschlüssel."
+  },
+  {
+    id: 199,
+    hr: "Vjerovati",
+    de: "glauben / vertrauen",
+    category: "verben",
+    exampleHr: "Vjerujem da je pred nama odlična budućnost.",
+    exampleDe: "Ich glaube, dass eine tolle Zukunft vor uns liegt."
+  },
+  {
+    id: 200,
+    hr: "Promijeniti",
+    de: "verändern / wechseln",
+    category: "verben",
+    exampleHr: "Ponekad treba promijeniti kut gledanja.",
+    exampleDe: "Manchmal muss man den Blickwinkel verändern."
+  },
+  {
+    id: 201,
+    hr: "Shvatiti",
+    de: "begreifen / verstehen",
+    category: "verben",
+    exampleHr: "Napokon sam shvatio kako ovaj uređaj radi.",
+    exampleDe: "Endlich habe ich begriffen, wie dieses Gerät funktioniert."
+  },
+  {
+    id: 202,
+    hr: "Dokazati",
+    de: "beweisen",
+    category: "verben",
+    exampleHr: "Djelima se najbolje može dokazati iskrenost.",
+    exampleDe: "Mit Taten kann man Aufrichtigkeit am besten beweisen."
+  },
+  {
+    id: 203,
+    hr: "Izabrati",
+    de: "auswählen / küren",
+    category: "verben",
+    exampleHr: "Moraš sam izabrati što ti najviše odgovara.",
+    exampleDe: "Du musst selbst auswählen, was dir am besten passt."
+  },
+  {
+    id: 204,
+    hr: "Ponoviti",
+    de: "wiederholen",
+    category: "verben",
+    exampleHr: "Možete li, molim vas, ponoviti zadnju riječ?",
+    exampleDe: "Können Sie bitte das letzte Wort wiederholen?"
+  },
+  {
+    id: 205,
+    hr: "Smetati",
+    de: "stören",
+    category: "verben",
+    exampleHr: "Oprosti ako ti smetam, imam samo jedno pitanje.",
+    exampleDe: "Entschuldige, falls ich störe, ich habe nur eine Frage."
+  },
+
+  // --- KATEGORIE: SIGNAL- & BINDEWÖRTER / ADVERBIEN (Veznici i prilozi) ---
+  {
+    id: 206,
+    hr: "Zapravo",
+    de: "eigentlich / in Wirklichkeit",
+    category: "veznici",
+    exampleHr: "Zapravo uopće nisam bio umoran.",
+    exampleDe: "Eigentlich war ich überhaupt nicht müde."
+  },
+  {
+    id: 207,
+    hr: "Vjerojatno",
+    de: "wahrscheinlich",
+    category: "veznici",
+    exampleHr: "Vjerojatno ćemo stići prije večere.",
+    exampleDe: "Wahrscheinlich kommen wir vor dem Abendessen an."
+  },
+  {
+    id: 208,
+    hr: "Doduše",
+    de: "zwar / allerdings",
+    category: "veznici",
+    exampleHr: "Skupo je, doduše kvaliteta je izvrsna.",
+    exampleDe: "Es ist teuer, allerdings ist die Qualität hervorragend."
+  },
+  {
+    id: 209,
+    hr: "Ipak",
+    de: "trotzdem / dennoch",
+    category: "veznici",
+    exampleHr: "Bila je kiša, ali smo ipak otišli u šetnju.",
+    exampleDe: "Es hat geregnet, aber wir sind trotzdem spazieren gegangen."
+  },
+  {
+    id: 210,
+    hr: "Napokon",
+    de: "endlich / schließlich",
+    category: "veznici",
+    exampleHr: "Napokon je stigao vikend!",
+    exampleDe: "Endlich ist das Wochenende da!"
+  },
+  {
+    id: 211,
+    hr: "Očito",
+    de: "offensichtlich / augenscheinlich",
+    category: "veznici",
+    exampleHr: "Očito je došlo do nesporazuma među nama.",
+    exampleDe: "Offensichtlich kam es zu einem Missverständnis unter uns."
+  },
+  {
+    id: 212,
+    hr: "Iznenada",
+    de: "plötzlich / unerwartet",
+    category: "veznici",
+    exampleHr: "Iznenada je počela padati jaka kiša.",
+    exampleDe: "Plötzlich begann es stark zu regnen."
+  },
+  {
+    id: 213,
+    hr: "Posebno",
+    de: "besonders / speziell",
+    category: "veznici",
+    exampleHr: "Posebno mi se svidio sladoled od smokve.",
+    exampleDe: "Besonders gut hat mir das Feigeneis geschmeckt."
+  },
+  {
+    id: 214,
+    hr: "Barem",
+    de: "wenigstens / mindestens",
+    category: "veznici",
+    exampleHr: "Ostani s nama barem još pola sata.",
+    exampleDe: "Bleib wenigstens noch eine halbe Stunde bei uns."
+  },
+  {
+    id: 215,
+    hr: "Međutim",
+    de: "jedoch / hingegen",
+    category: "veznici",
+    exampleHr: "Planirali smo put, međutim planovi su se promijenili.",
+    exampleDe: "Wir planten die Reise, jedoch haben sich die Pläne geändert."
+  },
+  {
+    id: 216,
+    hr: "Nažalost",
+    de: "leider / bedauerlicherweise",
+    category: "veznici",
+    exampleHr: "Nažalost ne mogu doći na tvoj rođendan.",
+    exampleDe: "Leider kann ich nicht zu deinem Geburtstag kommen."
+  },
+  {
+    id: 217,
+    hr: "Srećom",
+    de: "glücklicherweise / zum Glück",
+    category: "veznici",
+    exampleHr: "Srećom, nitko nije ozlijeđen u prometu.",
+    exampleDe: "Glücklicherweise wurde niemand im Verkehr verletzt."
+  },
+  {
+    id: 218,
+    hr: "Stalno",
+    de: "ständig / andauernd",
+    category: "veznici",
+    exampleHr: "Stalno zaboravljam gdje sam ostavio naočale.",
+    exampleDe: "Ich vergesse ständig, wo ich meine Brille gelassen habe."
+  },
+  {
+    id: 219,
+    hr: "Rijetko",
+    de: "selten",
+    category: "veznici",
+    exampleHr: "Rijetko viđam rođake koji žive u inozemstvu.",
+    exampleDe: "Ich sehe Verwandte, die im Ausland leben, nur selten."
+  },
+  {
+    id: 220,
+    hr: "Povremeno",
+    de: "gelegentlich / ab und zu",
+    category: "veznici",
+    exampleHr: "Povremeno odem na trčanje uz more.",
+    exampleDe: "Gelegentlich gehe ich am Meer joggen."
+  },
+  {
+    id: 221,
+    hr: "Namjerno",
+    de: "absichtlich",
+    category: "veznici",
+    exampleHr: "Nisam to napravio namjerno, bila je slučajnost.",
+    exampleDe: "Ich habe das nicht mit Absicht getan, es war Zufall."
+  },
+  {
+    id: 222,
+    hr: "Slučajno",
+    de: "zufällig / versehentlich",
+    category: "veznici",
+    exampleHr: "Slučajno smo se sreli na tržnici.",
+    exampleDe: "Wir haben uns zufällig auf dem Markt getroffen."
+  },
+  {
+    id: 223,
+    hr: "Inače",
+    de: "übrigens / ansonsten",
+    category: "veznici",
+    exampleHr: "Što inače radiš kad imaš slobodnog vremena?",
+    exampleDe: "Was machst du sonst so, wenn du Freizeit hast?"
+  },
+  {
+    id: 224,
+    hr: "Hitno",
+    de: "dringend / eilig",
+    category: "veznici",
+    exampleHr: "Trebam tvoju pomoć, stvar je prilično hitna.",
+    exampleDe: "Ich brauche deine Hilfe, die Sache ist ziemlich dringend."
+  },
+  {
+    id: 225,
+    hr: "Svakako",
+    de: "auf jeden Fall / sicherlich",
+    category: "veznici",
+    exampleHr: "Svakako ću ti se javiti čim stignem.",
+    exampleDe: "Ich werde mich auf jeden Fall melden, sobald ich da bin."
+  },
+  {
+    id: 226,
+    hr: "Nikako",
+    de: "auf keinen Fall / keineswegs",
+    category: "veznici",
+    exampleHr: "Nikako ne smiješ zaboraviti ponijeti putovnicu.",
+    exampleDe: "Du darfst auf keinen Fall vergessen, den Reisepass mitzunehmen."
+  },
+  {
+    id: 227,
+    hr: "Jedva",
+    de: "kaum / mit Mühe",
+    category: "veznici",
+    exampleHr: "Jedva čekam ljetni odmor u Hrvatskoj!",
+    exampleDe: "Ich kann den Sommerurlaub in Kroatien kaum erwarten!"
+  },
+  {
+    id: 228,
+    hr: "Potpuno",
+    de: "vollständig / ganz und gar",
+    category: "veznici",
+    exampleHr: "Potpuno te razumijem i slažem se s tobom.",
+    exampleDe: "Ich verstehe dich vollkommen und stimme dir zu."
+  },
+  {
+    id: 229,
+    hr: "Uglavnom",
+    de: "hauptsächlich / größtenteils",
+    category: "veznici",
+    exampleHr: "Uglavnom kuham doma umjesto da jedem vani.",
+    exampleDe: "Hauptsächlich koche ich zuhause, anstatt auswärts zu essen."
+  },
+  {
+    id: 230,
+    hr: "Uskoro",
+    de: "bald / in Kürze",
+    category: "veznici",
+    exampleHr: "Vidimo se uskoro na moru!",
+    exampleDe: "Wir sehen uns bald am Meer!"
   }
 ];
 
 // Kategorien-Metadaten für Filter & Badges
 var CATEGORIES = {
   all: { name: "Sve (Alle)", icon: "✨" },
+  fav: { name: "Favoriten", icon: "⭐" },
+  rijeci: { name: "Wichtige Nomen", icon: "🏛️" },
+  pridjevi: { name: "Eigenschaften", icon: "🎨" },
+  verben: { name: "Wichtige Verben", icon: "⚡" },
+  veznici: { name: "Signalwörter & Bindewörter", icon: "🔗" },
   kafic: { name: "Kafić & Ausgehen", icon: "☕" },
   slang: { name: "Slang & Spika", icon: "🔥" },
-  smalltalk: { name: "Smalltalk & Chunks", icon: "💬" },
+  smalltalk: { name: "Smalltalk & Phrasen", icon: "💬" },
   treffen: { name: "Treffen & Pläne", icon: "📍" },
   alltag: { name: "Alltag & Unterwegs", icon: "🛒" },
-  gefuehle: { name: "Gefühle & Reaktionen", icon: "❤️" },
-  verben: { name: "Flüssige Verben", icon: "⚡" }
+  gefuehle: { name: "Gefühle & Reaktionen", icon: "❤️" }
 };
+
+// 12 Authentische Alltagssituationen für den Spika-Trainer (Herkunftssprachler)
+var SPIKA_DIALOGS = [
+  {
+    id: "dlg-1",
+    category: "Kafić & Ausgehen",
+    emoji: "☕",
+    title: "Kaffee bestellen wie ein Local",
+    situation: "Der Kellner kommt an deinen Tisch im Café: »Izvolite, što ćete popiti?«",
+    prompt: "Wie bestellst du ganz entspannt wie ein Einheimischer?",
+    options: [
+      {
+        text: "»Može jedna bijela kava s toplim mlijekom i čaša vode, molim vas.«",
+        isCorrect: true,
+        feedback: "Perfekt! Kroaten sagen fast immer »Može...« (wörtlich: »Kann [sein]...«) anstelle von »Ich will / Ja hoću«. Es klingt höflich, entspannt und typisch lokal."
+      },
+      {
+        text: "»Ja želim uzeti kavu sa mlijekom.«",
+        isCorrect: false,
+        feedback: "Klingt wie eine wörtliche Übersetzung aus dem Deutschen (»Ich will nehmen«). Das sagt man im Kroatischen so nicht."
+      },
+      {
+        text: "»Dajte mi čaj od mente odmah.«",
+        isCorrect: false,
+        feedback: "Zu forsch und herrisch. »Može... molim vas« ist der goldene Standard."
+      }
+    ]
+  },
+  {
+    id: "dlg-2",
+    category: "Kafić & Ausgehen",
+    emoji: "🧾",
+    title: "Die Rechnung begleichen",
+    situation: "Ihr seid fertig im Lokal und der Kellner geht an eurem Tisch vorbei.",
+    prompt: "Wie bittest du ihn natürlich um die Rechnung?",
+    options: [
+      {
+        text: "»Može račun, molim vas? / Da platimo!«",
+        isCorrect: true,
+        feedback: "Genau richtig! »Može račun« oder »Da platimo!« (»Dass wir zahlen!«) sind die beiden universellen Floskeln beim Bezahlen."
+      },
+      {
+        text: "»Ja bih želio platiti svoj dug ovdje.«",
+        isCorrect: false,
+        feedback: "Viel zu bürokratisch – »dug« bedeutet buchstäblich Schulden/Kredite bei der Bank!"
+      },
+      {
+        text: "»Koliko novaca vi hoćete od mene?«",
+        isCorrect: false,
+        feedback: "Viel zu grob und unüblich."
+      }
+    ]
+  },
+  {
+    id: "dlg-3",
+    category: "Treffen & Pläne",
+    emoji: "⏰",
+    title: "Verspätung beim Treffen",
+    situation: "Dein Freund wartet schon 15 Minuten am Treffpunkt und schreibt: »Pa gdje si ti do sad?!«",
+    prompt: "Wie antwortest du authentisch, dass du gleich da bist?",
+    options: [
+      {
+        text: "»Evo me, zapeo sam u gužvi, stižem za dvije minute!«",
+        isCorrect: true,
+        feedback: "Treffer! »Evo me« (»Hier bin ich schon«) und »zapeo u gužvi« (»im Stau/Gewühl festgesteckt«) sind absolute Standard-Chunks."
+      },
+      {
+        text: "»Ja kasnim zato što promet je loš, čekaj me.«",
+        isCorrect: false,
+        feedback: "Grammatikalisch und klanglich sehr holprig aus dem Deutschen übersetzt."
+      },
+      {
+        text: "»Nisam mogao doći jer sam zaboravio vrijeme.«",
+        isCorrect: false,
+        feedback: "Klingt distanziert, unglaubwürdig und kalt."
+      }
+    ]
+  },
+  {
+    id: "dlg-4",
+    category: "Smalltalk & Phrasen",
+    emoji: "👋",
+    title: "Zufälliges Wiedersehen auf der Straße",
+    situation: "Du triffst unerwartet einen alten Bekannten in der Fußgängerzone.",
+    prompt: "Wie begrüßt du ihn mit echter kroatischer Herzlichkeit?",
+    options: [
+      {
+        text: "»Ooo pa di si ti, šta ima novo? Sto godina te nisam vidio!«",
+        isCorrect: true,
+        feedback: "Brillant! »Di si ti« (umgangssprachlich für »gdje si«) und »sto godina« (»seit hundert Jahren«) nutzt jeder für ein freudiges Wiedersehen."
+      },
+      {
+        text: "»Dobar dan moj stari prijatelju, kako je tvoj život danas?«",
+        isCorrect: false,
+        feedback: "Klingt wie aus einem altertümlichen Schulbuch aus dem 19. Jahrhundert!"
+      },
+      {
+        text: "»Hej ti, zašto hodaš ovdje po cesti?«",
+        isCorrect: false,
+        feedback: "Klingt eher vorwurfsvoll und aggressiv als herzlich."
+      }
+    ]
+  },
+  {
+    id: "dlg-5",
+    category: "Alltag & Unterwegs",
+    emoji: "🥐",
+    title: "In der Bäckerei (Pekara)",
+    situation: "Du stehst an der Bäckerei-Theke und willst einen warmen Fleisch-Burek.",
+    prompt: "Wie fragst du die Verkäuferin, ob der Burek frisch ist?",
+    options: [
+      {
+        text: "»Dobar dan! Je li burek friški? Dajte mi jedan s mesom, molim vas.«",
+        isCorrect: true,
+        feedback: "Top! »Friški« ist das typischste Wort für ofenfrisch/warm. »Jedan s mesom« ist die klare Ansage."
+      },
+      {
+        text: "»Ja bih htio kupiti komad novog toplog bureka s mesom.«",
+        isCorrect: false,
+        feedback: "Niemand sagt »komad novog bureka«. »Jedan s mesom« reicht völlig."
+      },
+      {
+        text: "»Molim vas jedan burek koji nije star od jučer.«",
+        isCorrect: false,
+        feedback: "Klingt misstrauisch und unhöflich gegenüber dem Personal."
+      }
+    ]
+  },
+  {
+    id: "dlg-6",
+    category: "Gefühle & Reaktionen",
+    emoji: "🛋️",
+    title: "Einladung freundlich ablehnen",
+    situation: "Ein Kumpel ruft um 21 Uhr an: »Ajde van, ekipa se skupila u gradu!« – Du bist aber total k.o.",
+    prompt: "Wie sagst du ehrlich und lässig ab, ohne ihn zu verprellen?",
+    options: [
+      {
+        text: "»Ajme, mrtav umoran sam danas, stvarno mi se ne da. Možemo sutra na kavu?«",
+        isCorrect: true,
+        feedback: "Sehr gut! »Ne da mi se« ist der #1 Ausdruck für »keinen Bock / keine Energie haben«. Ehrlich, direkt und sympathisch."
+      },
+      {
+        text: "»Moje tijelo nema dovoljno energije za izlazak večeras.«",
+        isCorrect: false,
+        feedback: "Klingt wie ein Roboter oder Arztbericht!"
+      },
+      {
+        text: "»Ne želim vas gledati jer ste dosadni.«",
+        isCorrect: false,
+        feedback: "Unnötig beleidigend."
+      }
+    ]
+  },
+  {
+    id: "dlg-7",
+    category: "Treffen & Pläne",
+    emoji: "🔥",
+    title: "Begeisterte Zusage zu Plänen",
+    situation: "Ein Freund schlägt vor: »Idemo večeras bacit đir do rive pa na ćevape?«",
+    prompt: "Wie stimmst du begeistert und verbindlich zu?",
+    options: [
+      {
+        text: "»Može, zvuči top! Računaj na mene.«",
+        isCorrect: true,
+        feedback: "Volltreffer! »Računaj na mene« (»Zähl auf mich«) und »zvuči top« werden ständig verwendet."
+      },
+      {
+        text: "»Ja prihvaćam tvoj prijedlog za šetnju i hranu.«",
+        isCorrect: false,
+        feedback: "Klingt wie die Annahme eines geschäftlichen Vertragsangebots!"
+      },
+      {
+        text: "»Možda dođem ako nema ništa bolje za raditi.«",
+        isCorrect: false,
+        feedback: "Klingt extrem unmotiviert und unfreundlich."
+      }
+    ]
+  },
+  {
+    id: "dlg-8",
+    category: "Alltag & Unterwegs",
+    emoji: "🍲",
+    title: "Familie & Gastfreundschaft",
+    situation: "Deine Tante/Oma legt dir zum dritten Mal Fleisch nach: »Ma uzmi još malo, nisi ništa jeo!« – Du platzt gleich.",
+    prompt: "Wie lehnst du liebevoll, aber bestimmt ab?",
+    options: [
+      {
+        text: "»Hvala ti puno, tetka, preukusno je, ali stvarno ne mogu više – puknut ću!«",
+        isCorrect: true,
+        feedback: "Klassiker! »Puknut ću« (»Ich platze gleich!«) ist der humorvolle und herzliche Weg, die Tante/Oma vom Nachschenken abzuhalten."
+      },
+      {
+        text: "»Prestani mi stavljati hranu, to je previše kalorija.«",
+        isCorrect: false,
+        feedback: "Verletzt die Gefühle der Gastgeberin und klingt kalt."
+      },
+      {
+        text: "»Ova hrana je gotova za mene sada.«",
+        isCorrect: false,
+        feedback: "Falsches Kroatisch – ergibt keinen Sinn."
+      }
+    ]
+  },
+  {
+    id: "dlg-9",
+    category: "Gefühle & Reaktionen",
+    emoji: "🚗",
+    title: "Reaktion auf ein Missgeschick",
+    situation: "Ein Freund ruft an: »Pukla mi je guma usred autoputa i nemam rezervnu!«",
+    prompt: "Wie reagierst du spontan und mitfühlend?",
+    options: [
+      {
+        text: "»Ma daj nemoj me zezat! Jel treba pomoć, di si točno?«",
+        isCorrect: true,
+        feedback: "Ausgezeichnet! »Ma daj nemoj me zezat!« (»Machst du Witze / Willst du mich verarschen?!«) drückt echtes Mitgefühl aus."
+      },
+      {
+        text: "»To je vrlo nesretan događaj s gumom, popravi to sam.«",
+        isCorrect: false,
+        feedback: "Emotionslos und herzlos wie ein Behördenschreiben."
+      },
+      {
+        text: "»Nije me briga za tvoje gume na autu.«",
+        isCorrect: false,
+        feedback: "Unverschämt und rüpelhaft."
+      }
+    ]
+  },
+  {
+    id: "dlg-10",
+    category: "Smalltalk & Phrasen",
+    emoji: "☀️",
+    title: "Sommerhitze & Strand",
+    situation: "Es hat 38 Grad im Schatten im Juli in Kroatien und ihr schwitzt in der Wohnung.",
+    prompt: "Wie schlägst du umgangssprachlich vor, sofort ins Meer zu springen?",
+    options: [
+      {
+        text: "»Uf, koja sparina danas, ne da se disat! Idemo se bacit u more.«",
+        isCorrect: true,
+        feedback: "Authentischer geht's nicht! »Sparina« (schwüle Sommerhitze) und »bacit se u more« (»ins Meer werfen/springen«) ist purer Adria-Lifestyle."
+      },
+      {
+        text: "»Zrak ima visoku temperaturu, predlažem plivanje u vodi.«",
+        isCorrect: false,
+        feedback: "Klingt wie ein wissenschaftlicher Wetterbericht von Meteorologen."
+      },
+      {
+        text: "»Vruće je, ostat ću unutra pod klimom cijeli dan.«",
+        isCorrect: false,
+        feedback: "Kein Aufbruch zum Strand."
+      }
+    ]
+  },
+  {
+    id: "dlg-11",
+    category: "Kafić & Ausgehen",
+    emoji: "🍽️",
+    title: "Im Restaurant nachfragen",
+    situation: "Ihr wartet schon seit 40 Minuten auf eure Hauptspeisen und der Kellner schaut kurz herüber.",
+    prompt: "Wie fragst du höflich nach dem Stand der Dinge?",
+    options: [
+      {
+        text: "»Oprostite, samo da provjerimo – jeste li možda zaboravili na našu narudžbu?«",
+        isCorrect: true,
+        feedback: "Perfekt formuliert! »Samo da provjerimo« (»Nur kurz zur Überprüfung«) ist die höflichste und effektivste Art nachzufragen."
+      },
+      {
+        text: "»Gdje je hrana, umiremo od gladi ovdje već sto sati!«",
+        isCorrect: false,
+        feedback: "Zu forsch und aggressiv für den ersten Hinweis."
+      },
+      {
+        text: "»Zašto vi radite tako sporo danas u kuhinji?«",
+        isCorrect: false,
+        feedback: "Unangemessen provozierend."
+      }
+    ]
+  },
+  {
+    id: "dlg-12",
+    category: "Slang & Spika",
+    emoji: "🌙",
+    title: "Verabschiedung in der Runde",
+    situation: "Es ist spät, die Kumpels trinken noch ein Bier, aber du musst morgen früh raus.",
+    prompt: "Wie verabschiedest du dich lässig und sympathisch von der Gruppe?",
+    options: [
+      {
+        text: "»Ekipa, ja polako moram gibat, rano se ustajem. Čujemo se sutra, ajde bok!«",
+        isCorrect: true,
+        feedback: "Legendär! »Ekipa« (Truppe/Leute), »moram gibat« (»muss langsam abdüsen/los«) und »ajde bok!« bilden den perfekten Abgang."
+      },
+      {
+        text: "»Ja sada napuštam ovu zgradu jer moram spavati.«",
+        isCorrect: false,
+        feedback: "Klingt hölzern und fast schon gruselig!"
+      },
+      {
+        text: "»Odlazim zauvijek, laku noć svima.«",
+        isCorrect: false,
+        feedback: "Viel zu theatralisch!"
+      }
+    ]
+  }
+];
 
 if (typeof window !== 'undefined') {
   window.VOCAB_DATA = VOCAB_DATA;
   window.CATEGORIES = CATEGORIES;
+  window.SPIKA_DIALOGS = SPIKA_DIALOGS;
 }
 
